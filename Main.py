@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 print("Matthew was here  :D")
- 
+print("Chicken r kool")
 url = "https://www.dell.com/en-us/shop/dell-laptops/sr/laptops/alienware-laptops"
 page = requests.get(url)
 page = page.text
